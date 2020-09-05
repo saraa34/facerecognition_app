@@ -23,7 +23,7 @@ class Register extends React.Component {
     }
 
     quandoRegistra = () => {
-        fetch('https://agile-wave-90163.herokuapp.com/register', {       
+        fetch('https://frozen-reef-90801.herokuapp.com/register', {       
             method: 'post',
             headers: {'Content-Type' : 'application/json'},
             body: JSON.stringify({
